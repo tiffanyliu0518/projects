@@ -1,9 +1,10 @@
-clock-update - Binary clock with bitmasks, created one version in C and an equivalent version in Assembly.
+clock-update (C + Assembly) - Created a binary clock using bitmask operations to convert raw time port input into formatted 12-hour AM/PM output. Developed two equivalent implementations in C and Assembly. Showcased proficiency in low-level system programming, bitwise manipulation, hardware-level display control, debugging, and error handling.
 
-garbage-collector - Implemented three types of garbage collection (mark and sweep, reference counting, and stop and copy) in Rust
+garbage-collector (Rust) - Implemented different memory management algorithms, including reference counting, mark and sweep, and stop and copy collection. Designed custom heap and stack structures, used regex to parse memory operations, and used recursive algorithms to trace object references and free unreachable memory.
 
-nfa-dfa-regex - Functions to convert NFAs to DFAs and regex to NFAs in OCaml
+nfa-dfa-regex (OCaml) - Created a compiler to convert regular expressions into nondeterministic finite automata (NFAs), and then apply subset construction to create deterministic finite automata (DFAs) in OCaml. Implemented key functions for e-closure, state transitioning, and acceptance checking, and included support for operations like union, concatenation, and Kleene star. Demonstrated experience in functional programming through OCaml, automata theory, and parsing. 
 
-small-c-compiler - Creating a mini C compiler in OCaml. Implemented the lexer, parser, evaluator, and an optimizer 
+small-c-compiler (OCaml) - Implemented a lexer, parser, and evaluator for a simplified subset of C syntax. The lexer tokenizes C source code using regex, the parser constructs an abstract syntax tree (AST), and the evaluator executes expressions and control flow. Showed knowledge of compiler design and functional programming.
 
-Currently working on creating an Elden Ring Build Creator (https://github.com/tiffanyliu0518/Elden-Ring-Build-Planner). Functions like minimum level requirement, selecting armor, weapons, and talismans, and entering in total level are included.
+Currently working on creating an Elden Ring Build Creator (https://github.com/tiffanyliu0518/Elden-Ring-Build-Planner). Developing a full-stack web application to allow players to design and optimize character builds for Elden Ring. Implementing a Python backend to fetch and preprocess game data (armor, weapons, talismans) from the Elden Ring API, storing it in JSON format. Building an interactive React frontend where users can select stats and equipment, with real-time calculations of defenses, resistances, and requirements. Demonstrated skills in full-stack development, API integration, data processing, and interactive UI/UX.
+
