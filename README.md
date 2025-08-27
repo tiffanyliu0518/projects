@@ -6,5 +6,7 @@
 
 **`small-c-compiler (OCaml)`** - Implemented a lexer, parser, and evaluator for a simplified subset of C syntax. The lexer tokenizes C source code using regex, the parser constructs an abstract syntax tree (AST), and the evaluator executes expressions and control flow. Showed knowledge of compiler design and functional programming.
 
+**`testing-suite (C)`** - Built a lightweight automated testing framework. Takes in a test specification file, runs the commands as separate processes, captures exit codes and outputs, and produces detailed, organized pass/fail reports in result files. The framework supports single-process execution and parallel execution with a configurable number of processes.
+
 Currently working on creating an **`Elden Ring Build Creator`** (https://github.com/tiffanyliu0518/Elden-Ring-Build-Planner). Developing a full-stack web application to allow players to design and optimize character builds for Elden Ring. Implementing a Python backend to fetch and preprocess game data (armor, weapons, talismans) from the Elden Ring API, storing it in JSON format. Building an interactive React frontend where users can select stats and equipment, with real-time calculations of defenses, resistances, and requirements. Demonstrated skills in full-stack development, API integration, data processing, and interactive UI/UX.
 
